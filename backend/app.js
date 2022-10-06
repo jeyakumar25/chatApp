@@ -6,7 +6,7 @@ const app = express();
 
 mongoose.connect(process.env.MONGODB_URL, { useNewUrlParser: true, useUnifiedTopology: true })
 .then(result=>{
-    console.log("Database connected")
+    console.log("Database connected Successfully")
 })
 .catch(err=>{
     console.log(err);
